@@ -7,7 +7,7 @@ class Sender(models.Model):
     def __str__(self):
         return self.name
 
-class Notifications(models.Model):
+class Notification(models.Model):
 
     CHANNEL_CHOICES=[("email", "Email"),("sms", "SMS"),("push", "Push"),]
 
